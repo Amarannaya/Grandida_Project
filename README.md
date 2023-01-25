@@ -30,7 +30,7 @@
 
 **Project Author**
 
-- Amarannaya
+- Amarachi Peace Onah(Amarannaya)
 
 
 ****How to Install and Run the Project****
@@ -69,18 +69,34 @@ VITE_PROJECT_ID="your-project-id-key" //no space before and after =
 VITE_API_KEY_SECRET="your-api-secret-key" //no space before and after =
 ```
 
-## :handshake: Contributing
+🔮 Usage
+To use this application as your own, follow these simple steps:
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Fork this Repository (https://github.com/Amarannaya/Grandida_Project.git)
 
-Please make sure to update tests as appropriate.
+Install Dependecies (npm install)
 
-**Usage**
+Run Project (npm start)
 
- This project is still under production and as such different functionalities may not work as required, the blockchain industry is still evolving.
- The projectbis an open source, and can be used as needed.
+## **Developer-centric options (if your project is open source)**
 
+As a little deter, the contract address(Admin) has been hardcoded, users can only interact as voters.
+you can write to the author for the admin access, it will granted.
+
+
+🤝 Contribute
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. 😊
+
+ 1. Fork Project
+
+ 2. Create your Feature Branch (git checkout -b feature/newFeature)
+
+ 3. Commit your changes(git commit -m "Add Some newFeature" )
+
+ 4. Push to the Branch (git push origin feature/newFeature)
+
+ 5. Open a Pull Request
+ 
 **License**
 
 MIT License
@@ -104,20 +120,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-## **Developer-centric options (if your project is open source)**
-
-As a little deter, the contract address(Admin) has been hardcoded, users can only interact as voters.
-you can write to the author for the admin access, it will granted.
-
-**How to Contribute**
-
-- For contribution, you can fork the project to another branch
-
-
-**Implementation Details**
-
-- This is a decentralized web 3.0 voting app, that aims to make the process of voting as seamless and free from manipulation as possible.
-- visit the site https://ammyvote.netlify.app/ to register and follow the instructions on the help page.
->>>
