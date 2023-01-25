@@ -2,11 +2,11 @@
 =======
 **Project Title**
 
--AmmyBlocks
+-AmmyVote
 
 **Project Description**
 
-- AmmyBlocks Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency, built on the polygon blockchain
+- AmmyVote Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency, built on the polygon blockchain
 
 **Project Snapshot**
 --- project snapshots
@@ -25,7 +25,7 @@
 
 **Project Website Link**
 
-- Live Site can be viewed at (https://ammyblocks.netlify.app/)
+- Live Site can be viewed at (https://ammyvote.netlify.app/)
 
 
 **Project Author**
@@ -119,5 +119,5 @@ you can write to the author for the admin access, it will granted.
 **Implementation Details**
 
 - This is a decentralized web 3.0 voting app, that aims to make the process of voting as seamless and free from manipulation as possible.
-- visit the site https://ammyblocks.netlify.app/ to register and follow the instructions on the help page.
+- visit the site https://ammyvote.netlify.app/ to register and follow the instructions on the help page.
 >>>
