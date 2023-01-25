@@ -46,7 +46,7 @@ npm start
 
 Additional Information:
 * __Contract compilation__ : <br><br>
-Use Remix Ethereum IDE or truffle migrate to compile and deploy.
+Use Remix Ethereum IDE or truffle migrate in vscode to compile and deploy.
 Then copy the contract address and paste in 'client/src/config.js'.
 
 * __Setup Infura__ : <br><br>
