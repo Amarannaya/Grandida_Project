@@ -9,8 +9,8 @@
 - AmmyBlocks Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency., built on the polygon blockchain
 
 **Project Snapshot**
+--- project snapshots
 **Homepage
-- A project snapshot of the landing page.
 ![homepage](https://user-images.githubusercontent.com/93910020/214582472-326439c7-2b67-4b4f-b085-7a061ce79e3e.png)
 
 **Registration
