@@ -10,8 +10,18 @@
 
 **Project Snapshot**
 **Homepage
-/screenshots/homepage.png
 - A project snapshot of the landing page.
+![homepage](https://user-images.githubusercontent.com/93910020/214582472-326439c7-2b67-4b4f-b085-7a061ce79e3e.png)
+
+**Registration
+![registration](https://user-images.githubusercontent.com/93910020/214582657-c59f1996-39e4-4f23-852f-def499ae142a.png)
+
+** Login
+![login](https://user-images.githubusercontent.com/93910020/214582728-2dbec387-6a2b-4205-8dec-f9d3576d0dbb.png)
+
+**Help
+![help](https://user-images.githubusercontent.com/93910020/214582797-67eaad76-96c9-432f-9e4d-b6336e3e49e1.png)
+
 
 **Project Website Link**
 
