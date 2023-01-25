@@ -10,7 +10,7 @@
 
 **Project Snapshot**
 **Homepage
-screenshots/homepage.png
+/screenshots/homepage.png
 - A project snapshot of the landing page.
 
 **Project Website Link**
