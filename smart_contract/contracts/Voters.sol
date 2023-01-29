@@ -1,6 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
 
+
+
+/*
+This is a Solidity contract for a voting system. It defines several structs (User, Candidate, Election, History) to store information about users, 
+candidates, elections, and voting history. It also uses mapping to store relationships between users and elections, candidates and elections, 
+and users and their voting history. It includes several functions for adding and removing users from elections,
+checking if a candidate is mapped to an election, getting lists of added or unadded users for an election, and getting a list of candidates for a given election.
+
+*/
 contract Voters {
   event getWinnerArr(Candidate[] res);
   
