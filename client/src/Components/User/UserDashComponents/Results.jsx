@@ -4,6 +4,15 @@ import UserABI from '../../../../../smart_contract/build/contracts/Voters.json'
 import { ContractAddress } from '../../../config.js'
 import {ethers} from 'ethers'
 
+
+/*
+This code is using React hooks to create a component that displays information about candidates and the winner of an election. 
+The component makes use of the ethers.js library to interact with a smart contract deployed on the Ethereum blockchain. 
+The smart contract is being used to manage a voting system, where users can vote for candidates, 
+and the contract keeps track of the vote counts and the winner of the election. The component uses the useState hook to manage the state of the component,
+and the useEffect hook to call a function that retrieves the necessary information from the smart contract when the component is rendered. 
+The component also uses the ethers.js library to interact with the smart contract and get the data about candidates and the winner of the election.
+*/
 const Child1=(props)=>{
     const [candidates,setCandidates]=useState([])
     const [flg,setFlg]=useState(false)
