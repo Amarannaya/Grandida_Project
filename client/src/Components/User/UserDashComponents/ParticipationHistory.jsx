@@ -4,6 +4,15 @@ import UserABI from '../../../../../smart_contract/build/contracts/Voters.json'
 import { ContractAddress } from '../../../config.js'
 import {ethers} from 'ethers'
 
+
+/*
+The component uses the Hooks useState and useEffect to manage the component's state and fetch the user's history data when the component mounts. 
+The component also uses the AuthConsumer to get the current user's information and the ethers library to interact with a smart contract on the blockchain. 
+The smart contract, called Voters, is used to fetch the user's history by calling the function "getHistory" and passing in the user's id.
+The component then maps over the history data and displays each history item in a div with information about the poll, the candidate they voted for,
+and the time they voted. 
+Additionally, the component also displays the total number of polls the user has participated in.
+*/
 const Child=(props)=>{
 
     const convertTimestamp = timestamp => {
