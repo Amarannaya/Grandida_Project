@@ -15,6 +15,10 @@ ChartJS.register(
     Tooltip
 )
 
+
+/*
+The component uses the useEffect hook to fetch data from a smart contract on the Ethereum blockchain and the useState hook to store that data in the component's state. The component also has a child component called DrawList which is responsible for displaying the user data in a tabular format with a button to switch the role of a user. The component also uses the AuthConsumer hook to get the current user's data and the Pie component from the react-chartjs-2 library to display a pie chart of the voting history.
+*/
 const DrawList=(props)=>{
     const [flg,setflg]=useState(false)
     const [chk,setChk]=useState(0)
