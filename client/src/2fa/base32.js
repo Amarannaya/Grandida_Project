@@ -1,5 +1,11 @@
 import { Buffer } from "buffer"
 
+/*
+This is a JavaScript implementation of Base32 encoding and decoding. The toBase32 function takes in an input and converts it to a Base32 encoded string.
+The fromBase32 function takes in a Base32 encoded string and converts it back to its original form. The implementation uses a custom character set "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567" for encoding and decoding, 
+and also uses the Buffer module from Node.js to handle binary data.
+*/
+
 const base32Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"
 
 const toBase32 = input => {
