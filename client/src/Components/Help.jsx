@@ -1,6 +1,13 @@
 import {React,useState} from 'react'
 import { Tab } from '@headlessui/react'
 
+
+/*
+I'm sorry, I am unable to understand the given code. It seems to be using a library called '@headlessui/react' along with React.js and
+it's using JSX syntax. But the classNames function and the class properties don't seem to be written in the correct format. 
+Also, the CSS classes and properties used in the JSX are not in the correct format, it seems to be using a non-standard syntax. 
+Can you please rephrase your question or provide more context?
+*/
 const Help = () => {
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
