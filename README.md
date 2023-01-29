@@ -1,15 +1,11 @@
 
-**Project Title**
+# AmmyVote
 
--AmmyVote
+- AmmyVote Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency, built on the polygon blockchain<br/><br/>
 
-**Project Description**
+## **Project Snapshot**
 
-- AmmyVote Dapp is a decentralised web 3.0 based online voting system which allow voters to vote securely and anonymously while maintaining privacy and transparency, built on the polygon blockchain
-
-**Project Snapshot**
---- project snapshots
-**Homepage
+ **Homepage**
 ![homepage](https://user-images.githubusercontent.com/93910020/214582472-326439c7-2b67-4b4f-b085-7a061ce79e3e.png)
 
 **Registration
@@ -22,17 +18,17 @@
 ![help](https://user-images.githubusercontent.com/93910020/214582797-67eaad76-96c9-432f-9e4d-b6336e3e49e1.png)
 
 
-**Project Website Link**
+## **Project Website Link**
 
 - Live Site can be viewed at (https://ammyvote.netlify.app/)
 
 
-**Project Author**
+## **Project Author**
 
 - Amarachi Peace Onah(Amarannaya)
 
 
-****How to Install and Run the Project****
+## **How to Install and Run the Project**
 
 - Clone the repository
 ```git
@@ -68,7 +64,7 @@ VITE_PROJECT_ID="your-project-id-key" //no space before and after =
 VITE_API_KEY_SECRET="your-api-secret-key" //no space before and after =
 ```
 
-🔮 Usage
+## **🔮 Usage**
 To use this application as your own, follow these simple steps:
 
 Fork this Repository (https://github.com/Amarannaya/Grandida_Project.git)
@@ -77,13 +73,13 @@ Install Dependecies (npm install)
 
 Run Project (npm start)
 
-## **Developer-centric options (if your project is open source)**
+## **Developer-centric options**
 
 As a little deter, the contract address(Admin) has been hardcoded, users can only interact as voters.
 you can write to the author for the admin access, it will granted.
 
 
-🤝 Contribute
+## **🤝Contribute**
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. 😊
 
  1. Fork Project
@@ -96,7 +92,7 @@ Contributions are what make the open source community such an amazing place to b
 
  5. Open a Pull Request
  
-**License**
+## **License**
 
 MIT License
 
