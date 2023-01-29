@@ -5,6 +5,13 @@ import { ContractAddress } from '../../../config.js'
 import {ethers} from 'ethers'
 import { Oval } from 'react-loader-spinner'
 
+
+/*
+It uses the useState hook to keep track of the selected candidate, 
+and the useEffect hook to trigger an action when the component is rendered.
+The component has two child components: Loader and Child. The Loader component renders a loading spinner, 
+while the Child component renders a list of candidates for the election, allowing the user to select one and cast their vote. The component also uses the ethers.js library to interact with a smart contract on the Ethereum blockchain, which is used to cast the user's vote. The component also uses the AuthConsumer component from the '../../../auth/useAuth' file to check if a user is authenticated to vote, and the UserABI component from the '../../../../../smart_contract/build/contracts/Voters.json' file to interact with the smart contract and the ContractAddress component from the '../../../config.js' file to get the smart contract address.
+*/
 const Loader=()=>{
     return(
       <div className='flex flex-col items-center justify-center'>
