@@ -14,6 +14,26 @@ ChartJS.register(
     Tooltip
 )
 
+
+/*
+This is a code snippet for a React functional component called "AdminDashboard" that renders a list of users and allows an admin to switch their roles.
+The component uses React Hooks to manage state and the ethers library to interact with a smart contract on the Ethereum blockchain.
+
+The component makes use of the "useEffect" and "useState" Hooks to handle the component's lifecycle and state management.
+It also imports several other modules, including the "Voters" smart contract's ABI and the address of the contract, which are used to interact with the contract.
+
+The component renders a list of users using the "Child" component, which maps over an array of user data and renders each user using the "DrawList" component. 
+The "DrawList" component displays the user's name and their role, and also has a button that, when clicked, calls the "switchRole" function, 
+which sends a transaction to the smart contract to switch the user's role.
+
+The component also has several other functions, such as "getRole" which is used to fetch the role of the user from the smart contract.
+
+The component also uses the "Pie" component from the "react-chartjs-2" library to render a pie chart of the number of active and inactive users.
+
+
+
+
+*/
 const DrawList=(props)=>{
     const [flg,setflg]=useState(false)
     const [chk,setChk]=useState(0)
