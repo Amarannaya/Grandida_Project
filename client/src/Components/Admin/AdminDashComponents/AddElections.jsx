@@ -7,6 +7,15 @@ import { ContractAddress } from '../../../config.js'
 import {ethers} from 'ethers'
 import { Oval } from 'react-loader-spinner'
 
+
+/*
+This is a React functional component that allows a user to add an election to a smart contract on the Ethereum blockchain. 
+The component uses the "react-hook-form" library to handle form inputs and the "ethers.js" library to interact with the smart contract.
+The component also uses the "useEffect" hook to retrieve a list of existing elections and display them in a separate component called "ElectionList." 
+The component also renders a loading spinner while data is being retrieved from the smart contract. When the form is submitted, 
+the component calls the "addElection" function which sends a transaction to the smart contract to add the new election. 
+The component also uses the "useState" hook to keep track of the form input and the list of existing elections.
+*/
 const Loader=()=>{
   return(
     <div className='flex flex-col items-center justify-center'>
