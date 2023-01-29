@@ -8,6 +8,11 @@ import AuthConsumer from "../../../auth/useAuth"
 import OtpInput from "react18-input-otp"
 import { verify2Fa } from "../../../2fa/authenticate"
 
+/*
+This is a code snippet for a React functional component called "OtpModal" which is used for two-factor authentication. 
+The component uses the "useState" hook to keep track of the OTP entered by the user, and it also uses the "useNavigate" hook from "react-router-dom" to navigate to a different page upon successful authentication. The component also makes use of the "AuthConsumer" component from the "../../../auth/useAuth" file, and it uses the "verify2Fa" function from "../../../2fa/authenticate" file to check if the entered OTP is valid. 
+The component also uses the "useLocation" hook to get the pathname of the previous page and uses "ethers" library to interact with smart contract to get user details.
+*/
 const OTP=(props)=>{
     const handleChange = (enteredOtp) => {
         props.setOTP(enteredOtp)
