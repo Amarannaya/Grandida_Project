@@ -6,6 +6,16 @@ import { ContractAddress } from '../../../config.js'
 import {ethers} from 'ethers'
 import DropDown from './utilities/DropDown'
 
+/*
+It looks like this is a React functional component that is used to add candidates to an election on a blockchain. 
+The component uses the react-hook-form library for form handling, the useState hook for state management, 
+and the useEffect hook to call a function that retrieves a list of elections from the blockchain. 
+The component also uses the ethers library to interact with a smart contract on the blockchain. 
+The component includes a form that allows users to select an election and input the name and registration number of the candidate they want to add. 
+The component also includes a child component that displays a dropdown menu of available elections.
+When the form is submitted, the component calls a function to add the candidate to the selected election on the blockchain.
+*/
+
 const Child=(props)=>{
   return (
     <>
